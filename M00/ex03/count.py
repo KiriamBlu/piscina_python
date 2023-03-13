@@ -31,4 +31,4 @@ def text_analyzer(args=None):
 
 
 if __name__ == "__main__":
-	text_analyzer(arg[0])
+	text_analyzer(arg[0].pop(0))
