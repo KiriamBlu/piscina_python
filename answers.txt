@@ -1,5 +1,0 @@
-conda list
-conda list numpy
-conda remove numpy
-conda install numpy
-conda env export > requirements.txt
