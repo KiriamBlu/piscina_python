@@ -46,8 +46,7 @@ class Bank(object):
 				return False
 			self.keys_[new_account.name]= list(new_account.__dict__.keys())
 			self.damaged_accounts.append(0)
-			if self.parse_acc(new_account) == True:
-				return True
+			return True
 		self.damaged_accounts.append(1)
 		return False
 
