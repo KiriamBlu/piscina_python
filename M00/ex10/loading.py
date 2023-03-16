@@ -13,7 +13,7 @@ def ft_progress(listy):
             eta, percent, "".join(['#' if i * 100 / 20 <= elems * 100 / len(listy) else ' ' for i in range(20)]), i + 1, len(listy), elapsed_time))
         sys.stdout.flush()
 
-listy = range(10000)
+listy = range(1000)
 ret = 0
 inicio_time = time.time()
 for elem in ft_progress(listy):

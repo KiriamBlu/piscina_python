@@ -21,3 +21,12 @@ if __name__ == "__main__":
         print('Failed')
     else:
         print('Success')
+
+
+
+bref
+zip
+value
+info
+other
+address
