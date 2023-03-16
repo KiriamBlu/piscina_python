@@ -17,16 +17,9 @@ if __name__ == "__main__":
         other='This is the vice president of the corporation'
     ))
 
+    print(bank.fix_account('William John'))
+    print(bank.fix_account('Smith Jane'))
     if bank.transfer('William John', 'Smith Jane', 545.0) is False:
         print('Failed')
     else:
         print('Success')
-
-
-
-bref
-zip
-value
-info
-other
-address
