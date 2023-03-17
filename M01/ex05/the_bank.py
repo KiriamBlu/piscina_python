@@ -107,9 +107,6 @@ class Bank(object):
 							var += 1
 							string = name + str(var)
 						setattr(self.accounts[values], "name", string)
-						#var = self.keys_[name]
-						#del self.keys_[name]
-						#setattr(self.keys_, string, var)
 						self.keys_[string] = self.keys_.pop(name)
 						name = string
 					count = [0, 0]
