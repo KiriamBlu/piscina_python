@@ -50,4 +50,3 @@ if __name__ == "__main__":
 	tstat.var(a)
 	# Expected result: 12279.439999999999
 	tstat.std(a)
-	# Expected re
